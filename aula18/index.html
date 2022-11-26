@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exerdom.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Imoveis</h1>
+    
+    <form>
+        <div id="style">
+        <p>
+        <label>Numero da Residencia: </label>
+        <input type="text" name="houseNumber" />
+        </p>
+        
+        <p>
+            <label>Bairro: </label>
+            <input type="text" name="district" />
+        </p>
+
+        <p>
+            <label>Cidade:</label>
+            <input type="text" name="city" />
+        </p>
+
+        <p>
+            <label>Área da casa</label>
+            <input type="text" name="areaOfTheHouse" />
+        </p>
+
+    <button onclick="saveHouse()" type="button" id="bt01">Adicionar</button>
+</div>
+</form>
+
+<ul id="house-list"></ul>
+    
+</body>
+</html>
